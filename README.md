@@ -22,7 +22,7 @@ public class Main {
         System.out.println("Stored: " + height);
 
             for (int row = 0; row < height; row++) {
-                for (int col = 0; col < height - row; col++) {
+                for (int col = 1; col < height - row; col++) {
                     System.out.print(" ");
                 }
                 for (int hash = 0; hash <= row; hash++) {
